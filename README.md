@@ -5,7 +5,7 @@
  - Run command sudo chmod 777 -R statics
  - Change database configurations in config/Database.php
  - In database create table as follow:
-	`CREATE TABLE `inifini_datas` (
+	``CREATE TABLE `inifini_datas` (
 	  `data_id` int(11) NOT NULL,
 	  `data_file_name` varchar(255) NOT NULL,
 	  `data_contents` json NOT NULL,
